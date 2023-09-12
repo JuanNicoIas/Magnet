@@ -3,7 +3,6 @@
 */
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -34,4 +33,112 @@
 html {
   font-size: 16px;
   line-height: 1.44;
+
 }
+
+.navBar {
+  background-color: #20d397;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 800;
+  display: grid;
+  
+}
+
+.navBarDentro{
+  margin: auto;
+  width: 70%;  
+  align-items: center;
+  color: #fbfbfb;
+  font-size: 1rem;
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+}
+ul li {
+  display: inline-block;
+  padding : 0px 20px;
+}
+ul{
+  margin-left: 37rem;
+}
+a{
+  text-decoration: none;
+  color: #fbfbfb;
+}
+.navBarDentro img{
+  width: 2rem;
+  padding: 0.71%;
+}
+
+
+.columns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;  
+  margin: auto;
+}
+
+.columns h2{
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  
+}
+
+.columns p{
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+  text-size-adjust: 100%;
+}
+
+.columns button{
+  background-color: #8a2be2;
+  color: #dddddd;
+  border: 0;
+  width: 90%;  
+  display: flex;
+  align-items: center;
+  margin: 1rem; 
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1rem;
+  
+}
+
+.columns img{
+  width: 7%;
+  margin: 0.60rem;
+}
+
+.raza{
+  border: 0.5px solid #dddddd; 
+  box-sizing: border-box;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, .15);
+  width: 90%;
+  
+}
+
+.textContent{
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  text-align: left;
+  margin: 1rem;
+}
+
+.titleOurPets {
+  width: 70%;
+  margin: auto;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+
+
+
+
+

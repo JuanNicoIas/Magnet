@@ -58,6 +58,11 @@ ul li {
   display: inline-block;
   padding : 0px 20px;
 }
+ul li:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Ajusta el grosor del subrayado */
+  text-underline-offset: 8px;
+}
 ul{
   margin-left: 37rem;
 }
@@ -68,6 +73,15 @@ a{
 .navBarDentro img{
   width: 2rem;
   padding: 0.71%;
+}
+
+.titleOurPets {
+  width: 70%;
+  margin: auto;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
 }
 
 
@@ -92,7 +106,7 @@ a{
   text-size-adjust: 100%;
 }
 
-.columns button{
+.columns a{
   background-color: #8a2be2;
   color: #dddddd;
   border: 0;
@@ -128,17 +142,74 @@ a{
   margin: 1rem;
 }
 
-.titleOurPets {
-  width: 70%;
-  margin: auto;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-  font-weight: 600;
+.boton2 {
+  padding-top: 0.98rem;
+}
+.boton3 {
+  padding-top: 0.48rem;
 }
 
+@media (max-width: 1280px) {
 
+  ul li:hover {
 
+    text-underline-offset: 7px;
+  }
+  ul{
+    margin-left: 39rem;
+  }
+  .navBarDentro img{
+    width: 1.5rem;
+    padding: 0.71%;
+  }
+
+  .columns p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .columns{
+    width: 80%;
+  }
+  .navBarDentro{
+    width: 80%;  
+  }
+  .titleOurPets {
+    width: 80%;
+    font-size: 1.25rem;
+  }
+  .columns h2{
+  font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px){
+  ul{
+    margin-left: 4rem;
+  }
+  .columns{
+    grid-template-columns: 1fr;
+    width: 103%;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+    
+  }
+  .navBarDentro img{
+    width: 2.5rem;
+    padding-left: 3%;
+  }
+  .navBarDentro{
+    width: 100%;
+  }
+  .raza {
+    margin-bottom: 2rem;
+  }
+  .titleOurPets {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}
 
 
 
